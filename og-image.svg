@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Whimsy Beats rhythm game cover image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="55%" stop-color="#e7f7ff"/>
+      <stop offset="100%" stop-color="#ffe9dc"/>
+    </linearGradient>
+    <linearGradient id="leftLane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd9ea"/>
+      <stop offset="100%" stop-color="#ffb3d2"/>
+    </linearGradient>
+    <linearGradient id="rightLane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8fbe9"/>
+      <stop offset="100%" stop-color="#9deacb"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#455b6f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <ellipse cx="1080" cy="120" rx="210" ry="58" fill="#ffffff" fill-opacity="0.42"/>
+  <ellipse cx="160" cy="520" rx="300" ry="68" fill="#ffffff" fill-opacity="0.34"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="280" y="84" width="640" height="462" rx="34" fill="#ffffff" fill-opacity="0.68"/>
+    <rect x="325" y="130" width="250" height="350" rx="24" fill="url(#leftLane)" fill-opacity="0.82"/>
+    <rect x="625" y="130" width="250" height="350" rx="24" fill="url(#rightLane)" fill-opacity="0.82"/>
+    <rect x="315" y="408" width="570" height="8" rx="4" fill="#ffffff" fill-opacity="0.92"/>
+
+    <rect x="372" y="262" width="156" height="34" rx="17" fill="#ff94c1"/>
+    <rect x="672" y="322" width="156" height="34" rx="17" fill="#79dcb7"/>
+
+    <circle cx="448" cy="250" r="6" fill="#ffd6eb"/>
+    <circle cx="478" cy="244" r="4" fill="#ffd6eb"/>
+    <circle cx="742" cy="309" r="6" fill="#ddfdf0"/>
+    <circle cx="766" cy="300" r="4" fill="#ddfdf0"/>
+  </g>
+
+  <text x="600" y="72" text-anchor="middle" font-family="Trebuchet MS, Avenir Next, Segoe Print, sans-serif" font-size="64" letter-spacing="2" fill="#294459">Whimsy Beats</text>
+  <text x="600" y="585" text-anchor="middle" font-family="Trebuchet MS, Avenir Next, Segoe Print, sans-serif" font-size="34" letter-spacing="1" fill="#385a70">Two-button rhythm game: D / K or tap left / right</text>
+</svg>
